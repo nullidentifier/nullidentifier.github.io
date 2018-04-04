@@ -66,12 +66,12 @@ height: inherit;
     color: yellow;
 }
 
-.container{
+/*.container{
   color:white;
  
  
 
-}
+}*/
 
 .pageOne{
 background: #02a8f3;
@@ -95,6 +95,10 @@ background: #02a8f3;
 
 .row{
  /* padding-left: 180px;*/
+  padding-top: 50px;
+}
+#image{
+  padding-left: 180px;*/
   padding-top: 50px;
 }
 

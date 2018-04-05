@@ -1,5 +1,6 @@
 .intro-name{
 
+  padding-top: 5%;
   font-size: 4em;
   font-weight: 700px;
 }
@@ -74,11 +75,11 @@ height: inherit;
 }*/
 
 .pageOne{
-background: #02a8f3;
+/*background: #02a8f5;*/
 }
 .pageTwo{
   padding-top: 40px;
-  background-color:white;
+  background-color:#149;
 }
 
 .pageThree{
@@ -100,6 +101,10 @@ background: #02a8f3;
 #image{
   padding-left: 180px;*/
   padding-top: 50px;
+}
+
+.introPage{
+    padding-top: 80px;
 }
 
 .col-md-6{
@@ -132,4 +137,12 @@ float:center;
 
 #p4{
    padding-top: 40px;
+   background-color: #149;
+   background-size: cover;
+   font-weight: 2%;
+
+}
+
+.contactdetails{
+  padding-top: 8%;
 }

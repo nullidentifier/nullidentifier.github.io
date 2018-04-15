@@ -21,13 +21,20 @@ margin-bottom: 0 !important;
 height: 10vh;
 justify-content: space-around;
 position: fixed;
-color:red;
+/*color:red;
+*/}
+
+
+navbar ul li{
+display: inline-block;
 }
 
 #topBar{
 background-color: rgb(0, 0, 0) ;
 
 }
+
+
 
 .paddingTop{
   margin-top: 100px;
@@ -36,7 +43,7 @@ background-color: rgb(0, 0, 0) ;
 .navbar-brand{
   font-size:1.3em;
 margin-top: 10px;
-color:red;
+color:yellow;
 }
 
 
@@ -64,22 +71,33 @@ height: inherit;
 }
 
 .nav-item a:active {
-    color: yellow;
+    color: pink;
 }
 
-/*.container{
-  color:white;
- 
+.container{
+  /*color:white;
+ */
+ background-color: transparent;
  
 
-}*/
+}
 
 .pageOne{
 /*background: #02a8f5;*/
+background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .pageTwo{
   padding-top: 40px;
-  background-color:#149;
+/*  background-color:#149;*/
+background-color: white;
+
+ /* background: #000000;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #434343, #000000);   Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*color: white;*/
 }
 
 .pageThree{
